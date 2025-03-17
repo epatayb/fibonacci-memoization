@@ -30,9 +30,9 @@ Uygulamayı çalıştırın:
    ``` 
 
 ### ✅ Memoization Neden Önemli?
-Klasik rekürsif Fibonacci fonksiyonu O(2ⁿ) zaman karmaşıklığına sahiptir.  
-Bu versiyon O(n) zaman karmaşıklığına sahiptir, çünkü her Fibonacci değeri sadece bir kez hesaplanır ve memo sözlüğüne kaydedilir.  
-Önceden hesaplanan değerleri tekrar hesaplamaya gerek kalmaz! 🚀  
+- Klasik rekürsif Fibonacci fonksiyonu O(2ⁿ) zaman karmaşıklığına sahiptir.  
+- Bu versiyon O(n) zaman karmaşıklığına sahiptir, çünkü her Fibonacci değeri sadece bir kez hesaplanır ve memo sözlüğüne kaydedilir.  
+- Önceden hesaplanan değerleri tekrar hesaplamaya gerek kalmaz! 🚀  
 
 ## ⚠️ Negatif Giriş Kontrolü
 Fonksiyon negatif girişlerde hata fırlatır:
@@ -42,7 +42,7 @@ ValueError: Hata: Fibonacci serisi için negatif bir sayı girilemez!
 ```
 
 ## 📌 Örnek Kullanım
-komut satırında çalıştırarak istediğiniz sayıyı öğrenebilirsiniz.
+Komut satırında çalıştırarak istediğiniz sayıyı öğrenebilirsiniz.
 ```bash
 Fibonacci serisinin kaçıncı adımını görmek istiyorsunuz?: 6
 Sonuç: 8   
